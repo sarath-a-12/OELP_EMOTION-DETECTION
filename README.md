@@ -1,16 +1,19 @@
 OELP for Sem6
 
-**_PROJECT1_**
-HandDetector Model.
-Detects the hands, and 24 unique points in all the hands that it detects.
+##PROJECT1 <br>
 
-**_PROJECT2_**
-PostureDetection. Incomplete as of now(not required for the final project)
+<p>HandDetector Model.
+Detects the hands, and 24 unique points in all the hands that it detects.</p>
 
-**_PROJECT3_**
-FaceDetection. Detects your face with with a particular amount of confidence,
+##PROJECT2<br>
+
+<p>PostureDetection. Incomplete as of now(not required for the final project)</p>
+
+##PROJECT3<br>
+
+<p>FaceDetection. Detects your face with with a particular amount of confidence,
 measured in percentage. It also shows the keypoints in the face like
 centre of lips, eyes and such. This can be put into a learning model in order to
-detect the emotions later.
+detect the emotions later.</p>
 
-Uses mediapipe and openCV as library.
+**Uses mediapipe and openCV as library.**
