@@ -18,6 +18,6 @@ detect the emotions later.</p>
 
 **Uses mediapipe and openCV as imported libraries.**
 
-You can find more about these libraries over here
+You can find more about these libraries over here <br>
 [OPENCV](https://opencv.org/) <br>
 [MEDIAPIPE](https://github.com/google/mediapipe)
