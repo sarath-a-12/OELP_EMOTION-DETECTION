@@ -16,4 +16,8 @@ measured in percentage. It also shows the keypoints in the face like
 centre of lips, eyes and such. This can be put into a learning model in order to
 detect the emotions later.</p>
 
-**Uses mediapipe and openCV as library.**
+**Uses mediapipe and openCV as imported libraries.**
+
+You can find more about these libraries over here
+[OPENCV]{https://opencv.org/}
+[MEDIAPIPE]{https://github.com/google/mediapipe}
