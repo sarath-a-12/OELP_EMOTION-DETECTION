@@ -1,15 +1,15 @@
 OELP for Sem6
 
-##PROJECT1 <br>
+## PROJECT1 <br>
 
 <p>HandDetector Model.
 Detects the hands, and 24 unique points in all the hands that it detects.</p>
 
-##PROJECT2<br>
+## PROJECT2<br>
 
 <p>PostureDetection. Incomplete as of now(not required for the final project)</p>
 
-##PROJECT3<br>
+## PROJECT3<br>
 
 <p>FaceDetection. Detects your face with with a particular amount of confidence,
 measured in percentage. It also shows the keypoints in the face like
