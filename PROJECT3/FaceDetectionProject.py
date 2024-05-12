@@ -2,11 +2,12 @@ import cv2
 import mediapipe as mp
 import time 
 
-cap  = cv2.VideoCapture('./2.mp4')
+cap  = cv2.VideoCapture(0)
+# cap  = cv2.VideoCapture(0)
 
 mpFaceDetection = mp.solutions.face_detection
 mpDraw = mp.solutions.drawing_utils #drawing the face
-faceDetection = mpFaceDetection.FaceDetection(0.75) 
+faceDetection = mpFaceDetection.FaceDetection(0.99) 
 
 pTime = 0
 while 1:
@@ -23,7 +24,7 @@ while 1:
             ih,iw,ic = img.shape
             bbox = int(bboxC.xmin*iw), int(bboxC.ymin*ih), \
                 int(bboxC.width * iw), int(bboxC.height * ih)
-            cv2.rectangle(img,bbox,(255,0,255),2)
+            cv2.rectangle(img,bbox,(255,0,255),2) #resizing the output
 
 
     cTime = time.time()
